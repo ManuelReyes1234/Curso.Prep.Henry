@@ -1,0 +1,6 @@
+    *Variables: Son un espacio en memoria que almacena datos, ya sean numericos, texto o booleanos.
+	* Strings : son cadenas de texto
+	* Funciones (argumentos, `return`): una funcion es como una accion que realiza un programa, los argumentos son las Variables
+        que utiliza la funcion y la palabra reservada return detiene la funcion y devuelve el resultado.
+	* Declaraciones `if`: Son condiciones, que dividen el flujo del programa
+	* Valores booleanos (`true`, `false`): Son utilizados en la Declaraciones if, true significa verdadero y false, falso.
