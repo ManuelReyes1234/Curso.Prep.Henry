@@ -1,0 +1,5 @@
+
+* `for`: Es un bucle con tres argumentos,el primero es la variable que se asigna, el segundo es una condicion con respecto a esta
+variable y el tercero es el incremento o decremento del valor de la variable.
+* `&&`, `||`, `!`: estos son operadores logicos, el && devolvera true unicamente si los dos argumentos son verdaderos
+el || devolvera true solo si un argumento es verdadero y el tercero ! es la negacion del argumento, si este es true lo cambia por false y viceversa
