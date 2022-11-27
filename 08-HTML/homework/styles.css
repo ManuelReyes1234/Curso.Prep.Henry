@@ -1,0 +1,43 @@
+
+body{
+background-image: url(https://animalgourmet.com/wp-content/uploads/2017/01/dumplings2-e1513610872911.jpg);
+background-repeat: no-repeat;
+background-size: cover;
+
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+
+
+}
+h1{
+    color: crimson;
+    
+}
+img{
+    width: 400px;
+    -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box
+}
+#thirdDiv{
+    height: 600px;
+    max-width: 500px;
+    padding: 50px;
+    background-color:darkorange ;
+    border: 1px solid blue;
+    -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+         
+}
+#spanId{
+    font-size: 18px;
+    margin: 50px;
+}
+div{
+    margin: 0 auto;
+    align-items: center;
+    justify-content: center;
+}
