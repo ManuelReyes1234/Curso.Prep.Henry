@@ -68,6 +68,12 @@ function tieneEmail(usuario) {
   // Devuelve "true" si el usuario tiene un valor definido para la propiedad "email"
   // De lo contratio, devuelve "false"
   // Tu código:
+  
+  //if(usuario['email']){
+    //return true;  //si lo encontro
+  //}
+  //return false;
+
   if(usuario.email===null||usuario.email===undefined){
     return false;
   }
@@ -85,6 +91,7 @@ function tienePropiedad(objeto, propiedad) {
     return false;
   }
   return true;
+  //return objeto.hasOwnProperty(propiedad)
 }
 
 function verificarPassword(usuario, password) {
@@ -155,6 +162,7 @@ function agregarMetodoCalculoDescuento(producto) {
   // Tu código:
   producto.calcularPrecioDescuento=function(){ 
     return producto.precio-(producto.precio*producto.porcentajeDeDescuento);
+    //return this.precio - ( this.precio * this.porcentajeDeDescuento );
   }
   return producto;
 }
